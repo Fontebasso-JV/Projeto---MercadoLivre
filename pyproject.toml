@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "api-aula20"
+version = "0.1.0"
+description = ""
+authors = ["João Fontebasso <joao.alvescont@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+docker = "^7.0.0"
+sqlalchemy = "^2.0.29"
+pydantic = {extras = ["email"], version = "^2.7.0"}
+fastapi = "^0.110.2"
+uvicorn = "^0.29.0"
+psycopg2 = "^2.9.9"
+psycopg2-binary = "^2.9.9"
+streamlit = "^1.33.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
